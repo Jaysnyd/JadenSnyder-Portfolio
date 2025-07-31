@@ -1,9 +1,10 @@
 import React from "react";
 import TitleHeader from "../components/TitleHeader";
-import { techStackIcons } from "../constants";
+import { techStackIcons, techStackImgs } from "../constants";
 import TechIcon from "../components/Models/TechLogos/TechIcon";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
+import { div } from "three/tsl";
 
 const TechStack = () => {
   // Using GSAP load cards in from left to right when scrolling down:
